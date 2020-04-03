@@ -40,20 +40,23 @@ Assuming that you already have brew installed
 
 
 <b> How to run the app ? </b> 
+
+<b>Folder Structure</b>
 ```
-<u>Folder Structure</u>
 -Assignment
   -\lib
     --ChimeMembersAnalysisAssignment-assembly-0.1.jar
   -\data
     --member_records_data_sets.json
-    
 ```
 
 Once Scala 2.12 is installed with brew. We can run the app in the following format. Please take a look.
-
+```
 <b> scala ./lib/ChimeMembersAnalysisAssignment-assembly-0.1.jar --membersDataset ./data/member_records_data_sets.json 
 --invalidMembersOutput ./invalid_records.csv  --deletedRecordsOutput ./deleted_records.csv </b>
+```
+
+```
 
 ---------------Members Report App------------------------------
 Usage: Members Report Analysis APP [options]
@@ -64,3 +67,4 @@ Usage: Members Report Analysis APP [options]
                            invalid members output path
   -d, --deletedRecordsOutput <value>
                            deleted records output path
+```
