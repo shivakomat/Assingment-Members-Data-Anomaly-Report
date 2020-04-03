@@ -1,3 +1,30 @@
+<b>Assignment Details</b>
+
+Programming Language / Enviroment used is Scala and I developed using Intelli J
+
+<u>Problem statement</u>
+
+Acme, Inc. started business in 2013 and immediately started onboarding members.  
+
+Enrollment business rules:
+
+You must be 18 years or older to have an account at Acme, Inc.
+You must provide valid identifiers (email, zip code, phone number) during enrollment.
+Members should never be removed (i.e. deleted), they should be marked as cancelled.
+Attached is a DB schema for storing the input, the data should conform completely to the schema.
+
+A developer wrote a script that accidentally messed up some data and there have also been a few bugs over the years that could 
+have caused issues, meaning the data may have stopped adhering to the business rules above.
+
+When casually looking through some of that members data, some issues were identified. Now we'd like to have a comprehensive 
+analysis done on the data to find any anomalies.
+
+<u>Solution</u>
+
+The application solves it by validating each row of the data from the data set and outputting two files. One file representing
+the invalid members based on the validations check and another file representing the deleted records. Please see the settings section and the how to run the app section to get your results and testing against other members data sets.
+
+
 <b>Settings</b>
 
 The application code is packaged into a jar file which is executable by scala version 2.12. The jar file also includes 
@@ -35,8 +62,3 @@ Usage: Members Report Analysis APP [options]
                            invalid members output path
   -d, --deletedRecordsOutput <value>
                            deleted records output path
-
-<b> Assignment Details </b>
-
-Programming Language / Enviroment used is Scala
-Developed using Intelli J 
