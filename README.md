@@ -1,8 +1,4 @@
-<b>Assignment Details</b>
-
-Programming Language / Enviroment used is Scala and I developed using Intelli J
-
-<u>Problem statement</u>
+<b>Problem statement</b>
 
 Acme, Inc. started business in 2013 and immediately started onboarding members.  
 
