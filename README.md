@@ -40,13 +40,15 @@ Assuming that you already have brew installed
 
 
 <b> How to run the app ? </b> 
-
+```
 <u>Folder Structure</u>
 -Assignment
   -\lib
     --ChimeMembersAnalysisAssignment-assembly-0.1.jar
   -\data
     --member_records_data_sets.json
+    
+```
 
 Once Scala 2.12 is installed with brew. We can run the app in the following format. Please take a look.
 
