@@ -15,7 +15,7 @@ have caused issues, meaning the data may have stopped adhering to the business r
 When casually looking through some of that members data, some issues were identified. Now we'd like to have a comprehensive 
 analysis done on the data to find any anomalies.
 
-<u>Solution</u>
+<b>Solution</b>
 
 The application solves it by validating each row of the data from the data set and outputting two files. One file representing
 the invalid members based on the validations check and another file representing the deleted records. Please see the settings section and the how to run the app section to get your results and testing against other members data sets.
