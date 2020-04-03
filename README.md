@@ -52,8 +52,8 @@ Assuming that you already have brew installed
 
 Once Scala 2.12 is installed with brew. We can run the app in the following format. Please take a look.
 ```
-<b> scala ./lib/ChimeMembersAnalysisAssignment-assembly-0.1.jar --membersDataset ./data/member_records_data_sets.json 
---invalidMembersOutput ./invalid_records.csv  --deletedRecordsOutput ./deleted_records.csv </b>
+scala ./lib/ChimeMembersAnalysisAssignment-assembly-0.1.jar --membersDataset ./data/member_records_data_sets.json 
+--invalidMembersOutput ./invalid_records.csv  --deletedRecordsOutput ./deleted_records.csv
 ```
 
 ```
