@@ -27,13 +27,6 @@ The application code is packaged into a jar file which is executable by scala ve
 all the dependency libraries needed to execute the app. So that leaves use with the only dependency to be installed to run
 the jar is the scala verison 2.12
 
-<b> How to install scala ? </b> 
-
-Assuming that you already have brew installed
-
-1 ) brew install scala@2.12 (try scala -version)
-2 ) export PATH="/usr/local/opt/scala@2.12/bin:$PATH" (Optional)
-
 
 <b> How to run the app ? </b> 
 
